@@ -9,7 +9,6 @@ const logger = require('./middlewares/logger.js')
 const port = process.env.PORT || 8080
 
 app.use(logger);
-app.use(timer);
 // app.use(timer);
 
 

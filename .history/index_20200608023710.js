@@ -4,17 +4,15 @@ const path = require('path');
 require('dotenv').config();
 
 const timer = require('./middlewares/timer.js');
-const logger = require('./middlewares/logger.js')
 
 const port = process.env.PORT || 8080
 
-app.use(logger);
+
 app.use(timer);
-// app.use(timer);
 
 
 app.listen(port, () => {
-    console.log(`Listening on ${port}`);
+    console.log(`Listening on ${}`);
 })
 
 

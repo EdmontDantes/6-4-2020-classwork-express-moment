@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 require('dotenv').config();
 
-const timer = require('./middlewares/timer.js');
+// const timer = require('./middlewares/timer.js');
 const logger = require('./middlewares/logger.js')
 
 const port = process.env.PORT || 8080

@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/EdmontDantes/6-4-2020-classwork-express-moment/issues"
   },
-  "homepage": "https://github.com/EdmontDantes/6-4-2020-classwork-express-moment#readme"
+  "homepage": "https://github.com/EdmontDantes/6-4-2020-classwork-express-moment#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.26.0"
+  }
 }

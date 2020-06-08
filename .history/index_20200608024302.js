@@ -4,12 +4,11 @@ const path = require('path');
 require('dotenv').config();
 
 const timer = require('./middlewares/timer.js');
-const logger = require('./middlewares/logger.js')
+const logger = require('./middlewares/logger')
 
 const port = process.env.PORT || 8080
 
 app.use(logger);
-app.use(timer);
 // app.use(timer);
 
 
